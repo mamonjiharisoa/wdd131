@@ -1,0 +1,26 @@
+@media only screen and (min-width: 40em) {
+	.nav_1 {
+		display: flex;
+	}
+	.nav_1 li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.nav_1 a {
+		text-align: center;
+	}
+	#menu {
+		display: none; 
+	}
+    .div_container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+        justify-self: center;
+      }
+      
+   
+
+}
