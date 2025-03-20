@@ -4,8 +4,8 @@
   --header-font-family: 'Roboto', sans-serif;
 }
 
-    header: { font-family: var(--header-font-family)};
-     main: {
+    header { font-family: var(--header-font-family)};
+     main {
   font-family: var(--main-font-family)
 };
     img { width: 100%; height: 700px; }
