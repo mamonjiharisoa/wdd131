@@ -46,7 +46,12 @@ header{
 
    font-family: Lato ;
  }
- 
+ .imgsvg{
+
+   width:70px;
+   height:70px
+
+}
 
 
 }
