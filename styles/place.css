@@ -45,15 +45,12 @@ font-size: 38px;
 }
 header{
  
- font-family: Roboto ,sans-serif; 
+  
  background-color: rgb(173, 25, 25);
  color: aliceblue;
  text-align: center;
 } 
- main{
 
-   font-family: Lato ;
- }
  .imgsvg{
 
    width:70px;
