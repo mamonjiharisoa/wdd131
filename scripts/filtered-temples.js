@@ -82,12 +82,15 @@ const temples = [
 ];
 
 
+
 const HomeLink= document.querySelector("#Home");
 const NewLink = document.querySelector("#New")
 const LargeLink = document.querySelector("#Large")
 const SmallLink = document.querySelector("#Small")
 const OldLink = document.querySelector("#Old") 
 
+const welcome= temples;
+createTempleCard(welcome);
 
  HomeLink.addEventListener("click", () => {
     const filteredTemples = temples
