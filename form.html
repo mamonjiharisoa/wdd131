@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Form| Mahamad Mamonjiharisoa Ronaldo </title>
+    <meta name="description" content="My name is Mamonjiharisoa Ronaldo Mahamad, the purpose of this page is for example ...">
+    <meta name="author" content="Mamonjiharisoa Ronaldo Mahamad">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/form.css">
+<script src="scripts/form.js" defer ></script>
+</head>
+
+<body> 
+    
+    <header>   
+
+        <h1>  Product Review   </h1>
+    
+    </header>
+    
+    
+    <main>  
+        
+ <form method="get" action="review.html">
+        <label> Product name </label>
+    
+        <select id="select" name="select"  required>
+        
+            <option selected disabled value="">Select a Product ...</option>
+    
+        </select>  
+    
+         <label> Overall Rating  </label>  
+           
+            <div class="star-rating">
+                <input type="radio" name="stars" id="star-a" value="5" required>
+                <label for="star-a"></label>
+          
+                <input type="radio" name="stars" id="star-b" value="4"/>
+                <label for="star-b"></label>
+            
+                <input type="radio" name="stars" id="star-c" value="3"/>
+                <label for="star-c"></label>
+            
+                <input type="radio" name="stars" id="star-d" value="2"/>
+                <label for="star-d"></label>
+            
+                <input type="radio" name="stars" id="star-e" value="1"/>
+                <label for="star-e"></label>
+          </div>
+          
+    
+          <label> Date of installation</label>
+    
+          <input class="input_date" type="date" id="date" name="date" required> 
+          
+        <p class="p2">  Which of the features did you find useful in the product </p>
+        <p class="p3"> ( Check all that applly )  </p>
+    
+        <label class="label1" > <input type="checkbox" id="features_1" name="Durability" value="Check1" >  Durability </label>
+    
+        <label class="label1" ><input type="checkbox" id="features_2" name="Easy" value="Check2" >  Easy of use </label>
+    
+    
+        <label class="label1" ><input type="checkbox" id="features_3" name="Performance" value="Check3" >  Performance </label>
+    
+    
+        <label class="label1"><input type="checkbox" id="feature_4" name="Design" value="Check4">  Design </label>
+    
+    
+    <label> Written Review <strong>(optional)</strong></label>
+    
+    <textarea>  </textarea>
+    
+     <label>Your name<strong> (optional)</strong></label>
+    
+    <input class="nameI" type="text" id="name"  name="fname">   
+    
+    <input class="name2" type="submit" value="Post Review">
+    
+</form>
+
+    <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+</main>
+    
+    <footer>
+        <p class="i"> <span id="currentyear"></span>  ❖ Mamonjiharisoa Ronaldo Mahamad Madagascar ❖ </p>
+        <p class="i" id="lastModified">  </p>
+    </footer>
+    
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
