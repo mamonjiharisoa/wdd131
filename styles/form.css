@@ -1,0 +1,175 @@
+
+
+.star-rating {
+    display: flex;
+   
+    width: 160px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom:0;
+    padding-bottom: 0;
+    position: relative;
+  }
+
+  .star-rating input {
+    display: none;
+  }
+
+  .star-rating > label {
+    width: 30px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 30px;
+    transition: 0.2s ease;
+    color: orange;
+  }
+
+  .star-rating label:hover {
+    color: #ff69b4;
+    transition: 0.2s ease;
+  }
+  .star-rating label:active::before {
+    transform:scale(1.1);
+  }
+  
+
+  .star-rating label::before {
+    content: '\2606';
+    position: absolute;
+    top: 0px;
+    line-height: 26px;
+  }
+
+  .star-rating input:checked ~ label:before {
+    content:'\2605';
+  }
+  
+  @-moz-document url-prefix() {
+    .star-rating input:checked ~ label:before {
+    font-size: 36px;
+    line-height: 21px;
+    }
+  }  
+
+label{
+
+display: block;
+padding-top: 1rem;
+color: rgb(255, 255, 255);
+
+}
+
+
+h1{
+
+text-align: center;
+color: rgb(202, 230, 255);
+background-color:rgb(105, 58, 0);
+font-family: Roboto , sans-serif;
+
+}
+
+
+
+main{
+background-color: rgb(72, 72, 72);
+color: aliceblue;
+font-family: Lato , sans-serif;
+margin-left: 10px;
+
+}
+
+footer{
+
+    color: aliceblue;
+    background-color: rgb(105, 58, 0);
+    font-family: Roboto , sans-serif;
+}
+
+textarea{
+
+    width: 650px;
+    height: 100px;
+   
+
+}
+
+form{
+
+    margin-left: 10px;
+}
+
+.nameI{
+ 
+    width: 300px;
+    display: block;
+}
+
+.name2{
+ 
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 650px
+}
+.i{
+
+text-align: center;
+
+}
+.p2{
+
+    font-size: 16px;
+    margin-bottom: 0px ;
+    padding-bottom: 0px;
+    margin-top: 30px ;
+    
+
+}
+.p3{
+
+    font-size: 18px;
+    margin-top: 0px;
+    padding-top: 0px;
+    }
+.input_date{
+
+    width: 300px;
+
+}    
+
+.label1{
+
+    padding-top: 0px;
+}
+strong{
+
+    color: rgb(255, 226, 226);
+}
+
+@media (max-width: 699px) {
+
+    .name2{
+        
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        font-size: 16px;
+        width: 98%;
+            
+    }
+
+  
+    textarea{
+
+        width: 98%;
+        height: 100px;
+       
+    
+    }
+
+
+}
