@@ -150,6 +150,11 @@ strong{
     color: rgb(255, 226, 226);
 }
 
+input[type="checkbox"] {
+  width: 15px;  
+  height: 15px; 
+
+}
 @media (max-width: 699px) {
 
     .name2{
