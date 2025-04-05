@@ -1,0 +1,33 @@
+header,footer  {
+
+background-color: rgb(117, 66, 0);
+color: aliceblue;
+font-family: Roboto , sans-serif
+}
+
+main{
+
+background-color: rgb(255, 184, 90); 
+color: black;
+font-family: Lato, sans-serif
+
+}
+
+p{
+
+text-align: center;
+
+}
+
+img {
+
+width:200px;
+height: 200px;
+
+}
+
+h1,h2{
+
+    text-align: center;
+
+}
