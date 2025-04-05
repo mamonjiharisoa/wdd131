@@ -25,7 +25,7 @@
     <main>  
         
  <form method="get" action="review.html">
-        <label> Product name </label>
+        <label for="select"> Product name </label>
     
         <select id="select" name="select"  required>
         
@@ -53,29 +53,29 @@
           </div>
           
     
-          <label> Date of installation</label>
+          <label for="date"> Date of installation</label>
     
           <input class="input_date" type="date" id="date" name="date" required> 
           
         <p class="p2">  Which of the features did you find useful in the product </p>
         <p class="p3"> ( Check all that applly )  </p>
     
-        <label class="label1" > <input type="checkbox" id="features_1" name="Durability" value="Check1" >  Durability </label>
+        <label class="label1" for="features_1" > <input type="checkbox" id="features_1" name="Durability" value="Check1" >  Durability </label>
     
-        <label class="label1" ><input type="checkbox" id="features_2" name="Easy" value="Check2" >  Easy of use </label>
-    
-    
-        <label class="label1" ><input type="checkbox" id="features_3" name="Performance" value="Check3" >  Performance </label>
+        <label class="label1" for="features_2" ><input type="checkbox" id="features_2" name="Easy" value="Check2" >  Easy of use </label>
     
     
-        <label class="label1"><input type="checkbox" id="feature_4" name="Design" value="Check4">  Design </label>
+        <label class="label1" for="features_3" ><input type="checkbox" id="features_3" name="Performance" value="Check3" >  Performance </label>
+    
+    
+        <label class="label1" for="feature_4"><input type="checkbox" id="feature_4" name="Design" value="Check4">  Design </label>
     
     
     <label> Written Review <strong>(optional)</strong></label>
     
     <textarea>  </textarea>
     
-     <label>Your name<strong> (optional)</strong></label>
+     <label for="name">Your name<strong> (optional)</strong></label>
     
     <input class="nameI" type="text" id="name"  name="fname">   
     
